@@ -46,7 +46,7 @@ ul {list-style: none; }
     color: var(--accent-color);
 }
 
-.site-nav .link.current {color: #2196F3;}
+.site-nav .link.current {color: var(--accent-color);}
 
 /* contacts */
 .contacts .link {
@@ -88,7 +88,7 @@ ul {list-style: none; }
 .team-list .title {color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;}
 .team-desc { color: var(--desc-text-color);
@@ -128,15 +128,10 @@ address {
     font-style: normal;
 }
 .contact .link-map {color: var(--primary-white-color);
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     text-decoration: none;}
 .contact .link {
         color: var(--desc-text-color);
-        font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03em;
         text-decoration: none;
     }
